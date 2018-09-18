@@ -4,11 +4,14 @@ using namespace std;
 
 int main(void)
 {
-	int num1 = 3;
-	int *ptr = &num1;
+	int a = 10;
+	int *p = &a;
 
-	cout << "num1의 값 = " << num1 << endl;
-	cout << "num1의 주소값 = " << ptr << endl;
+	cout << "a의 값 : " << a << endl;
+	cout << "a의 주소값 : " << p << endl;
+	cout << "p의 값 : " << p << endl;
+	cout << "p가 표시하고자 하는 값 : " << *p << endl;
+	cout << "p의 주소값 : " << &p << endl << endl;
 
 	return 0;
 }
